@@ -2,8 +2,10 @@ import "./_side-nav.scss";
 
 const SideNav = () => {
   return (
-    <div>
-      <h1> SideNav</h1>
+    <div className="side-nav">
+      <div className="section-title">
+        <h3>Category</h3>
+      </div>
     </div>
   );
 };
