@@ -1,5 +1,5 @@
-$icon-font: 0.08em;
-$element-height: 2.5em;
+@import "../../style/sass/variables";
+
 .header {
   max-width: 100%;
   box-shadow: 5px 5px 20px gray;
