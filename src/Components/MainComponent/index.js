@@ -1,9 +1,13 @@
+import SideNav from "../SideNav";
 import "./_main-component.scss";
 
 const MainComponent = () => {
   return (
     <div>
-      <h1> MainComponent</h1>
+      <div className="container-fluid">
+        <div className="col-lg-2 col-md-3 col-sm-4"></div>
+        <SideNav />
+      </div>
     </div>
   );
 };
