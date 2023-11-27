@@ -1,8 +1,5 @@
-$accent-color: black;
-@mixin transition($property, $duration) {
-  transition-property: $property;
-  transition-duration: $duration;
-}
+@import "../../style/sass/variables";
+@import "../../style/sass/mixins";
 
 .cat-nav-container {
   background-color: #a52020;
