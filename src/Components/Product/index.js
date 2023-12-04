@@ -7,6 +7,12 @@ const Products = () => {
         <div>
           <img src={require("../../assets/images/shop/shop-1.jpg")} />
         </div>
+        <div>
+          <h5>
+            <a href="#">Jacket</a>
+          </h5>
+          <p> $45 </p>
+        </div>
       </div>
     </div>
   );
